@@ -1,1 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T07:11:31.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="20.8.14" etag="hX-UFfy-QWnQP926_b3J" type="github"><diagram name="第 1 页" id="3vTdp0UVbqy76ZYv410J">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-01T08:22:02.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="mqAme0PP92gphzI9xFBE" version="20.8.14" type="github">
+  <diagram name="第 1 页" id="3vTdp0UVbqy76ZYv410J">
+    <mxGraphModel dx="1363" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xPan8RsNirfQrjr9XC_V-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-1" target="xPan8RsNirfQrjr9XC_V-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-1" value="加载本地发射器信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-2" target="xPan8RsNirfQrjr9XC_V-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-23" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-2" target="xPan8RsNirfQrjr9XC_V-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-2" value="存在发射器？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-13" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-9" target="xPan8RsNirfQrjr9XC_V-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-9" value="是否已经配对？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-33" value="成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-12" target="xPan8RsNirfQrjr9XC_V-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-35" value="失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-12" target="xPan8RsNirfQrjr9XC_V-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-12" value="发射器配对" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-17" target="xPan8RsNirfQrjr9XC_V-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-17" value="加载服务端注册的发射器信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-26" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-19" target="xPan8RsNirfQrjr9XC_V-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-19" target="xPan8RsNirfQrjr9XC_V-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-19" value="云端存在发射器" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-22" target="xPan8RsNirfQrjr9XC_V-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-22" value="“我的发射器”展示" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="584" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-25" target="xPan8RsNirfQrjr9XC_V-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-25" value="“我的发射器”展示" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="700" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-29" target="xPan8RsNirfQrjr9XC_V-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-29" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration: none; float: none; display: inline !important;&quot;&gt;“我的发射器”展示为空&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-37" value="失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-32" target="xPan8RsNirfQrjr9XC_V-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-40" value="成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-32" target="xPan8RsNirfQrjr9XC_V-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-32" value="注册设备到云端" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-34" value="提示配对失败" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-36" value="提示配对失败" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPan8RsNirfQrjr9XC_V-39" target="xPan8RsNirfQrjr9XC_V-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-39" value="提示配对成功，保存发射器配对信息到数据库" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPan8RsNirfQrjr9XC_V-41" value="开启扫描，获取wakelock" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
